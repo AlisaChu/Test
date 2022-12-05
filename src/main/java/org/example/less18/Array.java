@@ -1,7 +1,7 @@
-package org.example.less17;
+package org.example.less18;
 
-public class ArrayCal {
-    public int ArrayCal(int[] array) {
+public class Array {
+    public int arrayAverage(int[] array) {
         if (array.length == 0) {
             return 0;
         }
@@ -12,4 +12,10 @@ public class ArrayCal {
         return (sum / array.length);
     }
 }
+
+
+
+
+
+
 
