@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d13cc709-68c1-4df9-9cb3-97c7a80ca9f5" name="Changes" comment="ready1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less17/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less17/ArrayCal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less17/Matrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less17/MatrixCal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="d13cc709-68c1-4df9-9cb3-97c7a80ca9f5" name="Changes" comment="ready3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +52,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.less18.Main">
+  <component name="RunManager" selected="JUnit.ArrayTest.arrayMeanNegative">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.less17.Array" />
       <module name="demoMave" />
@@ -112,22 +101,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest.arrayMeanNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoMave" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ArrayTest" />
+      <option name="METHOD_NAME" value="arrayMeanNegative" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayTest.arrayMeanNegative" />
         <item itemvalue="Application.org.example.less18.Main" />
         <item itemvalue="Application.Matrix" />
         <item itemvalue="Application.Array" />
         <item itemvalue="JUnit.ArrayTest" />
-        <item itemvalue="JUnit.MatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,12 +158,20 @@
       <option name="project" value="LOCAL" />
       <updated>1670171719362</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ready3">
+      <created>1670266966748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670266966748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ready" />
     <MESSAGE value="ready1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready1" />
+    <MESSAGE value="ready3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready3" />
   </component>
 </project>

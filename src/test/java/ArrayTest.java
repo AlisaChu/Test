@@ -13,21 +13,15 @@ public class ArrayTest {
         int output = array.arrayAverage(arr);
         Assert.assertEquals(expected, output);
     }
+
     @Test
     public void arrayMeanNull() {
         Array array = new Array();
-        int [] arr = {};
+        int[] arr = {};
         int expected = 0;
         int output = array.arrayAverage(arr);
         Assert.assertEquals(expected, output);
     }
-
-    @Test
-    public void arrayMeanNegative() {
-        Array array = new Array();
-        int [] arr = {-2, 5, -8, 9};
-        int expected = 1;
-        int output = array.arrayAverage(arr);
-        Assert.assertEquals(expected, output);
-    }
 }
+
+
