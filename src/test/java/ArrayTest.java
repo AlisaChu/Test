@@ -7,21 +7,24 @@ public class ArrayTest {
 
     @Test
     public void arrayAverage() {
-        Array array = new Array();
         int[] arr = {5, 20, 87, 100, 13};
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
         int expected = 45;
-        int output = array.arrayAverage(arr);
-        Assert.assertEquals(expected, output);
+        Assert.assertEquals(expected, sum/arr.length);
     }
 
     @Test
     public void arrayMeanNull() {
-        Array array = new Array();
-        int[] arr = {};
+        int[] arr = new int[0];
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
         int expected = 0;
-        int output = array.arrayAverage(arr);
-        Assert.assertEquals(expected, output);
+        Assert.assertEquals(expected, sum);
     }
 }
-
 
