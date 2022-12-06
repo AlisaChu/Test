@@ -27,11 +27,10 @@ public class MatrixTest {
     }
     @Test
     public void matrixSquare(){
-        Matrix matrix = new Matrix();
-        int[][] arr = {{60}, {100, 60}};
-        boolean isSquare = false;
-        boolean output = matrix.matrixSquare(arr);
-        Assert.assertEquals(isSquare, output);
+        Matrix matrix1 = new Matrix();
+        int[][] matrix = {{60}, {100, 60}};
+        boolean isSquare = matrix1.matrixSquare(matrix);
+        Assert.assertEquals(isSquare,false);
     }
 }
 

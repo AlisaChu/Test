@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d13cc709-68c1-4df9-9cb3-97c7a80ca9f5" name="Changes" comment="ready5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less18/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less18/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTest.java" afterDir="false" />
+    <list default="true" id="d13cc709-68c1-4df9-9cb3-97c7a80ca9f5" name="Changes" comment="ready6">
       <change beforePath="$PROJECT_DIR$/src/test/java/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670337958191</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ready6">
+      <created>1670362619587</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670362619587</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +198,7 @@
     <MESSAGE value="ready3" />
     <MESSAGE value="ready4" />
     <MESSAGE value="ready5" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready5" />
+    <MESSAGE value="ready6" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready6" />
   </component>
 </project>
