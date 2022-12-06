@@ -6,62 +6,32 @@ import org.junit.Test;
 public class MatrixTest {
     @Test
     public void matrixTest(){
-        int[][] matrix = {{60, 100,12}, {100, 60,123}, {12,100, 60}};
-
-        int lenght = matrix.length;
-        boolean isSquare = true;
-        for(int i = 0;i < matrix.length;i++) {
-            if (lenght != matrix[i].length) {
-                isSquare = false;
-                break;
-            }
-        }
+        int[][] matrix = {{60, 100}, {100, 60}};
+        Matrix matrix1 = new Matrix();
+        boolean isSquare = matrix1.matrixSquare(matrix);
         Assert.assertEquals(true,isSquare);
     }
-
-    @Test
-    public void matrixSquare() {
-        int[][] matrix = {{60, 100,12}, {100, 60}, {12,100, 60}};
-
-        int lenght = matrix.length;
-        boolean isSquare = true;
-        for(int i = 0;i < matrix.length;i++) {
-            if (lenght != matrix[i].length) {
-                isSquare = false;
-                break;
-            }
-        }
-        Assert.assertEquals(false,isSquare);
-    }
-
     @Test
     public void matrixOneNull() {
-        int[][] matrix = {{60, 100,12}};
-
-        int lenght = matrix.length;
-        boolean isSquare = true;
-        for(int i = 0;i < matrix.length;i++) {
-            if (lenght != matrix[i].length) {
-                isSquare = false;
-                break;
-            }
-        }
+        int[][] matrix = {{60, 100}};
+        Matrix matrix1 = new Matrix();
+        boolean isSquare = matrix1.matrixSquare(matrix);
         Assert.assertEquals(false,isSquare);
     }
-
     @Test
     public void matrixNull() {
-        int[][] matrix = {};
-
-        int lenght = matrix.length;
-        boolean isSquare = true;
-        for(int i = 0;i < matrix.length;i++) {
-            if (lenght != matrix[i].length) {
-                isSquare = false;
-                break;
-            }
-        }
-        Assert.assertEquals(true,isSquare);
+        int[][] matrix = {{}};
+        Matrix matrix1 = new Matrix();
+        boolean isSquare = matrix1.matrixSquare(matrix);
+        Assert.assertEquals(false,isSquare);
+    }
+    @Test
+    public void matrixSquare(){
+        Matrix matrix = new Matrix();
+        int[][] arr = {{60}, {100, 60}};
+        boolean isSquare = false;
+        boolean output = matrix.matrixSquare(arr);
+        Assert.assertEquals(isSquare, output);
     }
 }
 

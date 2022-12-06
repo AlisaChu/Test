@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d13cc709-68c1-4df9-9cb3-97c7a80ca9f5" name="Changes" comment="ready4">
+    <list default="true" id="d13cc709-68c1-4df9-9cb3-97c7a80ca9f5" name="Changes" comment="ready5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less18/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/less18/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/less18/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,33 +59,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.less18.Main">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.less17.Array" />
-      <module name="demoMave" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.less17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.less17.Matrix" />
-      <module name="demoMave" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.less17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MatrixTest.matrixSquare">
     <configuration name="org.example.less18.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.less18.Main" />
       <module name="demoMave" />
@@ -96,20 +73,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoMave" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.arrayMeanNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest.matrixNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoMave" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayTest" />
-      <option name="METHOD_NAME" value="arrayMeanNegative" />
+      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
+      <option name="METHOD_NAME" value="matrixNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.matrixOneNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoMave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
+      <option name="METHOD_NAME" value="matrixOneNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.matrixSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoMave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
+      <option name="METHOD_NAME" value="matrixSquare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatrixTest.matrixSquare" />
+        <item itemvalue="JUnit.MatrixTest.matrixNull" />
+        <item itemvalue="JUnit.MatrixTest.matrixOneNull" />
+        <item itemvalue="JUnit.MatrixTest" />
         <item itemvalue="Application.org.example.less18.Main" />
-        <item itemvalue="JUnit.ArrayTest" />
-        <item itemvalue="JUnit.ArrayTest.arrayMeanNegative" />
-        <item itemvalue="Application.Matrix" />
-        <item itemvalue="Application.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670267362318</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ready5">
+      <created>1670337958191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670337958191</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +195,7 @@
     <MESSAGE value="ready1" />
     <MESSAGE value="ready3" />
     <MESSAGE value="ready4" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready4" />
+    <MESSAGE value="ready5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready5" />
   </component>
 </project>
