@@ -26,7 +26,7 @@ public class UserTest {
         actual.add(user2);
 
         //запускаем тест, в случае если список expected и actual не будут равны
-        //тест будет провален, о результатах теста читаем в консоли
+
         Assert.assertEquals(expected, actual);
     }
     @Test
